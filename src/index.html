@@ -1,73 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Todo</title>
-  <base href="/">
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo</title>
+    <base href="/" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body class='m-1 p-1'>
-  <div class="container">
-    <header>
-      <div class="row">
-        <div class="col-md"><h1>Ian's ToDo List </h1></div>
-      </div>
-    </header>
-    <main>
-      <div class="row">
-        <div class="col-md-8">
-          <article>
-            <div class="table-responsive">
-              <table class="table table-striped table-bordered table-hover">
-                <thead class="thead-dark">
-                  <tr>
-                    <th>Description</th>
-                    <th>Done</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Buy flowers</td>
-                    <td>No</td>
-                  </tr>
-                  <tr>
-                    <td>Cook dinner</td>
-                    <td>No</td>
-                  </tr>
-                  <tr>
-                    <td>Wash cars</td>
-                    <td>No</td>
-                  </tr>
-                  <tr>
-                    <td>Generation Tech</td>
-                    <td>No</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </article>
-        </div>
-        <div class="col-md-4">
-          <aside  class="bg-light p-4 border">
-            <form>
-              <legend>Add Todo:</legend>
-              <div class="form-group">
-                <label for="description">Details</label>
-                <input type="text" id="description" name="description" class="form-control" />
-              </div>
-              <div class="form-group">
-                <button class="btn btn-primary float-right">Add</button>
-              </div>
-              <br class="clearfix" />
-            </form>
-            <br class="clearfix" />
-          </aside>
-        </div>
-      </div>
-    </main>
-  </div>
-  <!-- <app-root></app-root> -->
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body class="m-1 p-1">
+
+    <app-todo></app-todo>
+
+  </body>
 </html>
